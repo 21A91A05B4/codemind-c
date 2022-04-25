@@ -1,16 +1,22 @@
 #include<stdio.h>
-int main()
+int fact(int n)
 {
-    int sum=0,n,i;
-    scanf("%d",&n);
+    int i,c=0;
     for(i=1;i<n;i++)
     {
         if(n%i==0)
         {
-            sum=sum+i;
+            c=c+i;
         }
     }
-    if(n==sum)
+    return c;
+}
+int main()
+{
+    int n,c;
+    scanf("%d",&n);
+    c=fact(n);
+    if(c==n)
     {
         printf("True");
     }
@@ -18,4 +24,5 @@ int main()
     {
         printf("False");
     }
+    
 }
