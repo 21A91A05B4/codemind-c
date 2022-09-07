@@ -11,8 +11,7 @@ int main()
         }
     }
     for(i=0;i<r;i++)
-    {
-        s=0;
+    {s=0;
         for(j=0;j<c;j++)
         {
             s=s+a[i][j];
@@ -23,5 +22,4 @@ int main()
         }
     }
     printf("%d",max);
-    
 }
