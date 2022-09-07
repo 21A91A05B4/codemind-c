@@ -10,8 +10,7 @@ int main()
     for(i=0;i<n;i++)
     {
         for(j=arr[i];j>=arr[i]-10;j--)
-        {
-            c=0;
+        {c=0;
             for(k=1;k<=j;k++)
             {
                 if(j%k==0)
@@ -27,8 +26,7 @@ int main()
             }
         }
         for(j=arr[i];j<=arr[i]+10;j++)
-        {
-            c=0;
+        {   c=0;
             for(k=1;k<=j;k++)
             {
                 if(j%k==0)
