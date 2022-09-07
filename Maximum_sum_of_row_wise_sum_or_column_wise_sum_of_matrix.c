@@ -11,8 +11,7 @@ int main()
         }
     }
     for(j=0;j<c;j++)
-    {
-        s=0;
+    {s=0;
         for(i=0;i<r;i++)
         {
             s=s+a[i][j];
@@ -23,8 +22,7 @@ int main()
         }
     }
     for(i=0;i<r;i++)
-    {
-        d=0;
+    {d=0;
         for(j=0;j<c;j++)
         {
             d=d+a[i][j];
