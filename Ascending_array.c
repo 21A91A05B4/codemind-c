@@ -9,14 +9,14 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        for(j=i+1;j<n;j++)
-        {
-            if(a[i]>=a[j])
-            {
-                flag=1;
-                break;
-            }
-        }
+       for(j=i+1;j<n;j++)
+       {
+           if(a[i]>=a[j])
+           {
+               flag=1;
+               break;
+           }
+       }
     }
     if(flag==0)
     {
@@ -26,5 +26,4 @@ int main()
     {
         printf("no");
     }
-    
 }
